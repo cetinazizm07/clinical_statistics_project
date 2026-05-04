@@ -1,0 +1,18 @@
+name: multiomics_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyter
+  - numpy
+  - pandas
+  - statsmodels
+  - scikit-learn
+  - anndata
+  - pip
+  - pip:
+    - lifelines
+    - scikit-survival
+    - pydeseq2
