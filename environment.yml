@@ -9,8 +9,16 @@ dependencies:
   - numpy
   - pandas
   - statsmodels
+  - openpyxl
   - scikit-learn
+  - scikit-image
+  - scanpy
+  - muon
+  - mofapy2
+  - matplotlib
+  - seaborn
   - anndata
+  - pooch
   - pip
   - pip:
     - lifelines
